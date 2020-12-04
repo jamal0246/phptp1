@@ -3,7 +3,7 @@
 <?php
 require "articles.php";
 
-var_dump($_GET["art"]); // Permet de se repérer sur le navigateur lors des tests
+var_dump($_GET["art"]); // Permet de se repérer sur le navigateur lors des tests ...
 
 $_article = $_articles[$_GET["art"]];
 ?>
