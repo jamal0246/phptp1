@@ -1,9 +1,10 @@
 <!-- fichier permettant d'être afficher dans index.php (UI), il envoie l'article complet à la place de la liste d'extraits d'article du fichier articles affichable par défaut -->
 
 <?php
+require "articles.php";
+
 var_dump($_GET["art"]); // Permet de se repérer sur le navigateur lors des tests
 
-require "articles.php";
 $_article = $_articles[$_GET["art"]];
 ?>
 
