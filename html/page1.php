@@ -2,9 +2,9 @@
 fichier affichable dans index.php (UI) par défaut avant le choix de l'utilisateur --> 
 
 <?php
-var_dump($_articles); // Permet de se repérer sur le navigateur lors des tests
-
 require_once "articles.php"; // réception des données
+
+var_dump($_articles); // Permet de se repérer sur le navigateur lors des tests
 ?>
 
 <h2>Page 1</h2>
